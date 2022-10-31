@@ -1,0 +1,304 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,latin-ext,cyrillic);
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
+@import 'animate.css';
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(104, 101, 151) 0%, rgba(148, 204, 142, 0.785) 100%, rgba(0,212,255,1) 100%);
+    text-align: center;
+}
+
+/* .animate__pulse{
+  --animate-duration: 10s;
+} */
+.bgfoto{
+    background-image: url(../imagenes/rugrats.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 50rem;
+    
+    background-position: center;
+   
+    
+}
+
+.estasInvitado{
+    width:100%;height: auto; display: block;                
+    font-family: 'Bubblegum Sans', cursive; font-size:3.2em;
+    color: #FFF;
+    text-align: center;
+    position:relative ;            
+    filter: drop-shadow(0 0 1px #fff)   drop-shadow(-1px 1px 0 #a81b02) drop-shadow(1px 1px 0 #000) drop-shadow(-1px -1px 0 #000);
+}
+
+.texto_datos{
+    width: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size:2.3em;
+    font-style:normal;
+    line-height: 1.5;
+    color:rgb(29, 8, 8);
+  }
+
+  .texto_datos_cuenta{
+    width: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size:2em;
+    font-style:normal;
+    line-height: 1.5;
+    color:#FFF;
+  }
+  
+ 
+  
+  .texto_datos_salon {
+    width: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size:1.5em;
+    font-style:normal;
+    line-height: 1.5;
+    color:#a81b02;
+  }
+  
+  .texto_actualizala {
+    width: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size:1em;
+    font-style:normal;
+    line-height: 1.5;
+    color:#333;
+  
+  }
+  
+  .saludo {
+      width: auto;
+      font-family: 'Bubblegum Sans', cursive;
+      font-size:2.5em;
+      font-style:normal;
+      line-height: 1.1;
+      color:#a81b02;  
+      text-shadow: -1px 2px 1px rgba(0,0,0,0.10);
+  }
+  
+  .saludo-nombre {
+      width: auto;
+      font-family: 'Bubblegum Sans', cursive;
+      font-size:2.7em;
+      font-style:normal;
+      line-height: 1.1;
+      color:#fff;
+      text-align: center;
+      margin-top: 2rem;
+        
+    }
+  
+    .muestra-edad {
+      width: auto;
+      font-family: 'Bubblegum Sans', cursive;
+      font-size:2.8em;
+      font-style:normal;
+      line-height: 1.1;
+      color:#FFF;
+      text-shadow: -1px 2px 1px rgba(0,0,0,0.10);
+        
+    }
+  
+  .boton_DETALLE{
+      width:88%;
+      padding:20px;
+      /* margin: 20px 0px 0px 0px; */
+      color:#fff;
+      background-color:#a81b02;
+       font-family: 'Comfortaa', cursive;
+      font-size:1.2em;
+      font-weight: bold;
+      text-transform: none;
+      border-radius: 5px;
+      
+      text-align:center;
+      text-decoration: none;
+  
+      
+      
+      
+      
+  }
+  
+  
+  
+  .boton_DETALLE_personalizado{
+      font-family: 'Comfortaa', cursive;
+      font-size: 1.1em;
+      color:#757575;
+      line-height: 1.2;
+      text-align:center;
+      text-decoration:none;
+      padding:10px 10px 10px 10px;
+      
+      background-color: #EEEEEE;
+      border-radius: 5px;
+      margin-top: 15px;
+      margin-left: 11px;
+      
+      width: 88%;
+      
+  }
+  
+  
+  
+/*   .TITULOS_SALON{
+      font-family: 'Comfortaa', cursive;
+      font-size: 2em;
+      color:#F60;
+      line-height: 1.2;
+      text-align:center;
+      text-decoration:none;
+      
+  
+  }
+   */
+  
+  .TITULOS_SALON2{
+      font-family: 'Comfortaa', cursive;
+      font-size: 1.8em;
+      color:#fff;
+      line-height: 1.2;
+      text-align:center;
+      text-decoration:none;
+      padding: 0px 0px 20px 0px;
+      
+  
+  }
+  
+  .nofaltes{
+      font-family: 'Comfortaa', cursive;
+      font-size: 1.3em;
+      color:#333;
+      line-height: 1.2;
+      text-align:center;
+      text-decoration:none;
+      padding: 0px 0px 20px 0px;
+  }
+
+  .div_blanco{
+	width: 100%;
+	height: auto;
+	overflow:hidden;
+	box-sizing: border-box;
+	border-top: solid;
+	border-top-color: #C2C2C2;
+	border-top-width: 6px;
+	padding:12px;
+
+
+}
+
+.barra_saludo{
+      width:auto;
+      height: auto;
+      
+      
+      
+      margin: 2rem;
+      
+      background: #a81b02;
+      opacity:0.9;
+      border-radius: 5px;
+      
+      
+      padding:1.5rem; 
+    
+    
+    font-family: 'Comfortaa', cursive;  
+    font-size: 1.2rem;
+    color: #FFF;
+    text-align: center;
+    line-height: 1.2;
+
+	
+}
+div>a{
+  text-decoration: none;
+}
+
+
+.foto_galeria{
+	width: 30%;
+	height: 12rem;
+	overflow:hidden;
+	box-sizing: border-box;
+	float: none;
+	margin:10px 0px 0px 0px;
+	padding-right:6px;
+	
+
+}
+
+
+.grupo_fotos{
+	width: 100%;
+	height: auto;
+	overflow:hidden;
+	box-sizing: border-box;
+	margin-top: 30px;
+	padding-left: 10px;
+
+}
+
+
+.foto{
+	width: 47%;
+	height: auto;
+	overflow:hidden;
+	box-sizing: border-box;
+	float: none;  
+	margin-right:5px;
+	margin-bottom: 5px;
+	
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+	
+
+}
+
+.image-grid {
+	--gap: 16px;
+	--num-cols: 4;
+	--row-height: 300px;
+
+	box-sizing: border-box;
+	padding: var(--gap);
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+}
+
+.image-grid>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.image-grid-col-2 {
+	grid-column: span 2;
+}
+
+.image-grid-row-2 {
+	grid-row: span 2;
+}
+
+/* Anything udner 1024px */
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		--num-cols: 2;
+		--row-height: 200px;
+	}
+}
