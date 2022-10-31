@@ -1,5 +1,5 @@
 
-let fullDate = "2023-01-15T13:00:00";
+let fullDate = "2022-12-03T13:00:00";
 
 
 var end = new Date(fullDate).getTime();
@@ -40,4 +40,7 @@ var end = new Date(fullDate).getTime();
 
     timer = setInterval(showRemaining, 1000);
 
-   
+   function nombreCumplea(){
+    var nombre =prompt("Quien tumple años","Pepito")
+     document.getElementById("cumplea").innerHTML = nombre;
+   }

@@ -10,10 +10,12 @@ body{
     background: linear-gradient(90deg, rgb(104, 101, 151) 0%, rgba(148, 204, 142, 0.785) 100%, rgba(0,212,255,1) 100%);
     text-align: center;
 }
+div>a{
+  text-decoration: none;
+}
 
-/* .animate__pulse{
-  --animate-duration: 10s;
-} */
+
+
 .bgfoto{
     background-image: url(../imagenes/rugrats.jpg);
     
@@ -31,7 +33,7 @@ body{
     width:100%;height: auto; display: block;                
     font-family: 'Bubblegum Sans', cursive; font-size:3.2em;
     color: #FFF;
-    text-align: center;
+    
     position:relative ;            
     filter: drop-shadow(0 0 1px #fff)   drop-shadow(-1px 1px 0 #a81b02) drop-shadow(1px 1px 0 #000) drop-shadow(-1px -1px 0 #000);
 }
@@ -68,7 +70,7 @@ body{
   .texto_actualizala {
     width: auto;
     font-family: 'Comfortaa', cursive;
-    font-size:1em;
+    font-size:1.7em;
     font-style:normal;
     line-height: 1.5;
     color:#333;
@@ -88,11 +90,11 @@ body{
   .saludo-nombre {
       width: auto;
       font-family: 'Bubblegum Sans', cursive;
-      font-size:2.7em;
+      font-size:3.5em;
       font-style:normal;
       line-height: 1.1;
       color:#fff;
-      text-align: center;
+      
       margin-top: 2rem;
         
     }
@@ -108,82 +110,15 @@ body{
         
     }
   
-  .boton_DETALLE{
-      width:88%;
-      padding:20px;
-      /* margin: 20px 0px 0px 0px; */
-      color:#fff;
-      background-color:#a81b02;
-       font-family: 'Comfortaa', cursive;
-      font-size:1.2em;
-      font-weight: bold;
-      text-transform: none;
-      border-radius: 5px;
-      
-      text-align:center;
-      text-decoration: none;
-  
-      
-      
-      
-      
-  }
   
   
   
-  .boton_DETALLE_personalizado{
-      font-family: 'Comfortaa', cursive;
-      font-size: 1.1em;
-      color:#757575;
-      line-height: 1.2;
-      text-align:center;
-      text-decoration:none;
-      padding:10px 10px 10px 10px;
-      
-      background-color: #EEEEEE;
-      border-radius: 5px;
-      margin-top: 15px;
-      margin-left: 11px;
-      
-      width: 88%;
-      
-  }
   
+
   
+
   
-/*   .TITULOS_SALON{
-      font-family: 'Comfortaa', cursive;
-      font-size: 2em;
-      color:#F60;
-      line-height: 1.2;
-      text-align:center;
-      text-decoration:none;
-      
-  
-  }
-   */
-  
-  .TITULOS_SALON2{
-      font-family: 'Comfortaa', cursive;
-      font-size: 1.8em;
-      color:#fff;
-      line-height: 1.2;
-      text-align:center;
-      text-decoration:none;
-      padding: 0px 0px 20px 0px;
-      
-  
-  }
-  
-  .nofaltes{
-      font-family: 'Comfortaa', cursive;
-      font-size: 1.3em;
-      color:#333;
-      line-height: 1.2;
-      text-align:center;
-      text-decoration:none;
-      padding: 0px 0px 20px 0px;
-  }
+ 
 
   .div_blanco{
 	width: 100%;
@@ -198,74 +133,7 @@ body{
 
 }
 
-.barra_saludo{
-      width:auto;
-      height: auto;
-      
-      
-      
-      margin: 2rem;
-      
-      background: #a81b02;
-      opacity:0.9;
-      border-radius: 5px;
-      
-      
-      padding:1.5rem; 
-    
-    
-    font-family: 'Comfortaa', cursive;  
-    font-size: 1.2rem;
-    color: #FFF;
-    text-align: center;
-    line-height: 1.2;
 
-	
-}
-div>a{
-  text-decoration: none;
-}
-
-
-.foto_galeria{
-	width: 30%;
-	height: 12rem;
-	overflow:hidden;
-	box-sizing: border-box;
-	float: none;
-	margin:10px 0px 0px 0px;
-	padding-right:6px;
-	
-
-}
-
-
-.grupo_fotos{
-	width: 100%;
-	height: auto;
-	overflow:hidden;
-	box-sizing: border-box;
-	margin-top: 30px;
-	padding-left: 10px;
-
-}
-
-
-.foto{
-	width: 47%;
-	height: auto;
-	overflow:hidden;
-	box-sizing: border-box;
-	float: none;  
-	margin-right:5px;
-	margin-bottom: 5px;
-	
-	-webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
-	
-
-}
 
 .image-grid {
 	--gap: 16px;
