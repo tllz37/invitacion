@@ -41,6 +41,6 @@ var end = new Date(fullDate).getTime();
     timer = setInterval(showRemaining, 1000);
 
    function nombreCumplea(){
-    var nombre =prompt("Quien tumple años","Pepito")
+    var nombre =prompt("Quien cumple años","Pepito")
      document.getElementById("cumplea").innerHTML = nombre;
    }
